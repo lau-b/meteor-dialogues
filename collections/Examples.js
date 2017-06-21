@@ -1,4 +1,10 @@
-Examples = new Meteor.Collection('examples');
+Examples = new Mongo.Collection('examples');
+
+Examples.allow({
+    insert: function(userId, doc) {
+        return !!userId;
+    }
+});
 
 ExampleSchema = new SimpleSchema({
     description: {
