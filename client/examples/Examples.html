@@ -1,9 +1,11 @@
 <template name="Examples">
-    <div>
-        <p>
-            Hier werden alle bereits eingetragenen Beispiele aufgeführt.
-        </p>
-    </div>
+    <section>
+        {{#each examples}}
+            <h1>{{_id}}</h1>
+            {{description}} <br>
+            <img style="width: 150px;height: auto;" src="{{url}}" alt="{{description}}" />
+        {{/each}}
+    </section>
     <div>
         {{> NewExample}}
     </div>
