@@ -20,7 +20,6 @@ shell-server@0.2.3            # Server-side component of the `meteor shell` comm
 kadira:blaze-layout
 kadira:flow-router
 accounts-password
-accounts-ui
 aldeed:collection2
 aldeed:autoform
 session
@@ -28,3 +27,4 @@ meteortoys:allthings
 materialize:materialize
 jquery
 meteor
+accounts-ui
