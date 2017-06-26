@@ -15,6 +15,14 @@ ExampleSchema = new SimpleSchema({
         type: String,
         label: 'URL'
     },
+    altText: {
+        type: String,
+        label: 'Alternativer Text für das Bild'
+    },
+    createdFor: {
+        type: String,
+        label: 'Beispiel für'
+    },
     author: {
         type: String,
         label: 'Autor',
