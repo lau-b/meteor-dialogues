@@ -1,0 +1,6 @@
+.nav-link a{
+  font-size: 1.4em;
+}
+section:last-of-type {
+  margin-bottom: 15px;
+}
