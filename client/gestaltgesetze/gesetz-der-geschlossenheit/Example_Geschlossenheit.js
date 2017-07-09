@@ -1,5 +1,3 @@
-//Meteor.subscribe('examples');
-
 Template.Example_Geschlossenheit.onCreated(function() {
     var self = this;
     self.autorun(function() {

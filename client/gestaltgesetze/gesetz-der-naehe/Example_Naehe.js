@@ -1,5 +1,3 @@
-//Meteor.subscribe('examples');
-
 Template.Example_Naehe.onCreated(function() {
     var self = this;
     self.autorun(function() {
