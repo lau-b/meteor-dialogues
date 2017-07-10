@@ -1,0 +1,20 @@
+<template name="Example_Fehlertoleranz">
+  <section>
+      {{#each examples}}
+          <h2>Beispiel 1</h2>
+          <div class="row">
+              <div class="col s12 m12 l6">
+                  <p class="flow-text">
+                  {{description}} Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                  </p>
+              </div>
+              <div class="col s12 m12 l6">
+                  <img class="responsive-img" src="{{url}}" alt="{{description}}" />
+              </div>
+          </div>
+      {{/each}}
+  </section>
+  <div>
+      {{> NewExample}}
+  </div>
+</template>
