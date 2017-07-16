@@ -1,0 +1,7 @@
+{
+  "galaxy.meteor.com": {
+    "env": {
+      "MONGO_URL": "mongodb://dialogues-admin:admin@ds161162.mlab.com:61162/meteor-dialogues"
+    }
+  }
+}
